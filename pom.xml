@@ -12,7 +12,7 @@
     <artifactId>Content-Creation-Sharing</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Content-Creation-Sharing</name>
-    <description>Social Medica Content Creation Sharing Module</description>
+    <description>Social Media Content Creation Sharing Module</description>
     <properties>
         <java.version>11</java.version>
     </properties>
