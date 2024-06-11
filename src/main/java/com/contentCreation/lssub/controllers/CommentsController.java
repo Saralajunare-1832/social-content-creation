@@ -49,8 +49,14 @@ public class CommentsController {
         return ResponseEntity.status(HttpStatus.OK).body(service.getByUserNameAndContentId(userName, contentId));
     }
 
+//    @PutMapping
+//    public ResponseEntity<Comment> updateCommentById(@RequestBody Comment comment) {
+//        log.info("updateCommentById method invoked. updated Comment is " + comment);
+//        return ResponseEntity.status(HttpStatus.OK).body(service.updateCommentById(comment));
+//    }
     @PutMapping
-    public ResponseEntity<Comment> updateCommentById(@RequestBody Comment comment) {
+    //just to check
+    public ResponseEntity<Comment> updateCommentById1(@RequestBody Comment comment) {
         log.info("updateCommentById method invoked. updated Comment is " + comment);
         return ResponseEntity.status(HttpStatus.OK).body(service.updateCommentById(comment));
     }
