@@ -2,6 +2,7 @@ package com.contentCreation.contents.model;
 
 import com.contentCreation.lssub.model.Comment;
 import com.contentCreation.lssub.model.Like;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -37,6 +38,8 @@ public class Content {
     private Date uploadedTime;
     @UpdateTimestamp
     private Date lastUpdated;
+    String xyz;
+    String justCheck;
 
     @Transient
     private List<Comment> comments;
